@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title>我的简历</title>
+
+  <style>* {
+      box-sizing: border-box;
+      text-decoration: none;
+    }
+
+    body {
+      background: #eee;
+      margin: 20px 0;
+    }
+
+    article {
+      width: 21cm;
+      min-height: 29.7cm;
+      background: white;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 1em;
+    }
+
+    a {
+      text-decoration: none;
+    }</style>
+  <style media="print">body {
+      margin: 0;
+    }
+
+    .page2 {
+      page-break-after: always;
+      margin-top: 30px;
+    }</style>
+  <style>body {
+    }
+
+    p {
+      margin: .3em 0;
+    }
+
+    h1 {
+      font-size: 25px;
+      margin-top: 0;
+    }
+
+    h4,
+    h5,
+    h6 {
+      font-weight: normal;
+    }
+
+    ol,
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    strong {
+      font-weight: normal;
+      color: #f60;
+    }
+
+    a {
+      color: #999;
+      text-decoration: none;
+      border-bottom: 1px solid;
+    }
+
+    p,
+    li {
+      color: #666;
+    }
+
+    strong {
+      font-weight: normal;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+    }
+
+    .bio {
+      position: relative;
+    }
+
+    .bio img {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }</style>
+  <style>.projects {
+    }
+
+    .projects p {
+      color: #666;
+    }
+
+    .projects strong {
+      color: #f60;
+    }
+
+    .projects > ol {
+      margin-top: 0;
+      list-style-position: inside;
+      padding: 0;
+    }
+
+    .projects > ol > li {
+      margin-bottom: 24px;
+    }
+
+    .projects > ol > li > header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .projects > ol > li h3 {
+      display: inline-block;
+    }</style>
+  <style>.openSource {
+    }
+
+    .openSource > h2 {
+    }
+
+    .openSource header img {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    .openSource > ul {
+    }
+
+    .openSource > ul > li {
+      margin-bottom: 24px;
+    }
+
+    .openSource header {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .openSource h3 {
+    }</style>
+  <style>@media (max-width: 500px) {
+      body {
+        margin: 0;
+      }
+
+      article {
+        width: auto;
+        height: auto;
+      }
+
+      .bio img {
+        display: none;
+      }
+
+      .skills .wrapper {
+
+
+        flex-direction: column;
+      }
+
+      .jobs header {
+        flex-direction: column;
+      }
+
+      .jobs header > h3,
+      .jobs header > h4,
+      .jobs header > span {
+        margin: 0;
+      }
+    }</style>
+</head>
+
+<body>
+<article>
+  <section class="bio">
+    <h1>吴文宇</h1>
+<!--    <img src='./images/wwy.jpg' alt="" style="width: 100px; height: 100px;">-->
+    <p>
+      男 | 25岁 | 前端开发工程师
+    </p>
+    <p>
+      手机：<a href="tel:15622178416">15622178416</a> |
+      邮箱：<a href="mailto:johnnywwy@163.com">johnnywwy@163.com</a>|
+      微信：johnnywwy
+    </p>
+    <!--    <div style="height: 10px;"></div>-->
+  </section>
+  <section class="education">
+    <h2>教育经历</h2>
+    <p>
+      五邑大学 电子信息工程 本科
+    </p>
+    <!--   <div style="height: 10px;"></div>-->
+  </section>
+  <section class="projects">
+    <h2>项目经历</h2>
+    <p></p>
+    <ol>
+      <li>
+        <header>
+          <h3>后台管理系统</h3>
+          <span>
+<!--              <a href="https://github.com/johnnywwy/vue-el-admin">源码链接</a>-->
+          </span>
+        </header>
+        <p>
+          一款基于
+          <strong>Vue2 </strong>/
+          <strong>Vue-router </strong>/
+          <strong>Vuex </strong>/
+          <strong>Axios </strong>/
+          <strong>Element-ui </strong> 的后台管理系统
+        </p>
+        <p>
+          主要负责后台管理页面的管理<strong>用户账号</strong>、<strong>商品分类</strong>、<strong>商品信息</strong>、<strong>订单</strong>等业务功能
+        </p>
+        <p>
+          该项目采用前后端分离的开发模式，拥有<strong>登录管理</strong>，<strong>用户管理</strong>，<strong>权限管理</strong>，<strong>商品管理</strong>，<strong>订单管理</strong>等模块
+        </p>
+        <p>
+          通过这次项目让我对后台管理系统有个更深入的了解，掌握了后台管理系统的制作技巧
+        </p>
+        <p></p>
+        <p></p>
+      </li>
+      <li>
+        <header>
+          <h3>咕噜 UI</h3>
+          <span>
+<!--              <a href="https://github.com/johnnywwy/gulu-ui">源码链接</a>-->
+              <a href="https://johnnywwy.gitee.io/gulu-ui-website/#/">项目预览</a>
+            </span>
+        </header>
+        <p>
+          一款基于
+          <strong>Vue3 </strong>/
+          <strong>TypeScript </strong>/
+          <strong>Vite </strong> 的 UI 框架
+        </p>
+        <p>
+          目前UI组件有
+          <strong>Button组件</strong>、
+          <strong>Switch组件</strong>、
+          <strong>Dialog组件</strong>、
+          <strong>Tabs组件</strong>
+        </p>
+        <p>
+          除了学习之外，主要目的是希望在工作中能够加以复用，提高开发效率
+        </p>
+        <p>
+          制作过程让我对 Vue3 有了新的认识，并且分别对移动端和 PC 端进行适配，提升用户使用体验
+        </p>
+        <p>
+          并将整个项目的学习过程总结成了一篇博客《<a href="https://github.com/johnnywwy/blog/blob/main/23.Vue3%E9%80%A0%E8%BD%AE%E5%AD%90%E5%AE%9E%E5%BD%95.md">Vue3
+          造轮子实录</a>》
+        </p>
+        <p></p>
+        <p></p>
+      </li>
+      <li>
+        <header>
+          <h3>云笔记</h3>
+          <span>
+              <a href="https://github.com/johnnywwy/vue-cloud-note">源码链接</a>
+              <a href="https://johnnywwy.gitee.io/cloud-note-website">项目预览</a>
+            </span>
+        </header>
+        <p>
+          一款基于 <strong>Vue2</strong> /
+          <strong>Vuex</strong> /
+          <strong>Element-ui</strong> 的 PC 版云笔记
+        </p>
+        <p>主要功能：用户登录与注册，对笔记本进行增删改查等操作，对markdown格式进行渲染</p>
+        <p>
+          制作过程让我对<strong>后端交互</strong>有了更深刻的理解，掌握了 Vuex 状态管理的使用，<strong>接口的封装</strong>，增强可复用性。
+          并将整个项目的学习过程总结成了一篇博客《<a href="https://github.com/johnnywwy/blog/blob/main/24.%E4%BA%91%E7%AC%94%E8%AE%B0%E5%BC%80%E5%8F%91%E5%AE%9E%E5%BD%95.md">云笔记开发实录</a>》
+        </p>
+        <p></p>
+        <p></p>
+      </li>
+      <li>
+        <header>
+          <h3>大屏可视化</h3>
+          <span>
+<!--              <a href="https://github.com/johnnywwy/bigScreen">源码链接</a>-->
+              <a href="https://johnnywwy.gitee.io/big-srceen-website/#/">项目预览</a>
+            </span>
+        </header>
+        <p>
+          一款基于
+          <strong>React </strong>/
+          <strong>Echarts </strong>
+          的大屏可视化项目
+        </p>
+        <p>
+          为了适应所有屏幕，我使用了动态 <strong>rem</strong> 方案，具体思路见我的博客《<a href="https://github.com/johnnywwy/blog/blob/main/27.%E5%A4%A7%E5%B1%8F%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98.md">大屏项目实战</a>》
+        </p>
+        <p>
+          这个项目是我在学习前端可视化与 echarts 时制作而成，页面布局使用了 <strong>Grid</strong> 和 <strong>Flex</strong> 布局
+        </p>
+
+        <p>
+          项目中包含的图例有柱形图、折线图、饼图、地图和表格等，图例都可以实时更新数据并辅以动画交互
+        </p>
+        <p>
+          通过这个项目，我掌握了大屏可视化项目的制作技巧
+        </p>
+      </li>
+      <li>
+        <header>
+          <h3>旺财记账</h3>
+          <span>
+<!--              <a href="https://github.com/johnnywwy/morney">源码链接</a>-->
+              <a href="https://johnnywwy.github.io/morney-website/">项目预览</a>
+            </span>
+        </header>
+        <p>
+          一个基于 <strong>Vue</strong> / <strong>TypeScript</strong> 的移动端单页面应用
+        </p>
+        <p>
+          该项目使用 <strong>VueRouter</strong> 的 Hash 模式来实现不同页面的跳转
+        </p>
+        <p>
+          使用 <strong>Flex</strong> 布局来达到响应式布局，使用 <strong>Vuex</strong> 来进行全局数据管理
+        </p>
+        <p>
+          这是我从自己的需求出发，设计出的极简记账应用，特点是快速记账
+        </p>
+        <p></p>
+      </li>
+    </ol>
+  </section>
+
+
+  <section class="skills">
+    <h2>技能</h2>
+    <div class="wrapper">
+      <ul>
+        <li>熟悉页面制作技巧，能将设计稿<strong>1:1还原</strong></li>
+        <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
+        <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
+        <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+        <li>了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li>
+        <li>了解 <strong>Webpack 的配置和优化</strong></li>
+        <li>熟练使用 VS code、WebStorm 等开发工具</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="openSource">
+    <h2>开源项目</h2>
+    <ul>
+      <li>
+        <header>
+          <h3>自己写的 DOM 库</h3>
+<!--          <a href="https://github.com/johnnywwy/dom-test-1">源码链接</a>-->
+        </header>
+        <p>实现了元素选择、元素创建、元素查找、<strong>事件委托</strong>、等常见功能</p>
+      </li>
+      <li>
+        <header>
+          <h3>会动的皮卡丘</h3>
+          <span>
+<!--              <a href="https://github.com/johnnywwy/pikachu-website">源码链接</a>-->
+              <a href="https://johnnywwy.github.io/pikachu-website/">项目预览</a>
+            </span>
+        </header>
+        <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
+      </li>
+      <li>
+        <header>
+          <h3>简易画板</h3>
+          <span>
+<!--              <a href="https://github.com/johnnywwy/canvas-demo">源码链接</a>-->
+              <a href="https://johnnywwy.github.io/canvas-demo/index.html">项目预览</a>
+            </span>
+        </header>
+        <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
+      </li>
+      <li>
+        <header>
+          <h3>导航网站</h3>
+          <span>
+<!--              <a href="https://github.com/johnnywwy/nav-1">源码链接</a>-->
+              <a href="https://johnnywwy.github.io/nav-1/dist/index.html">项目预览</a>
+            </span>
+        </header>
+        <p>一个简洁高效的导航网站，适配<strong> 移动端 </strong>和 <strong> PC </strong> 端</p>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h2>其他链接</h2>
+    <ul>
+      <li><a href="https://github.com/johnnywwy/blog">我的博客</a>，目前已有 28 篇技术文章</li>
+      <li><a href="https://github.com/johnnywwy">我的 GitHub</a>，过去三个月有 468 次提交</li>
+    </ul>
+  </section>
+</article>
+</body>
+
+
+</html>
